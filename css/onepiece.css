@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.85em;
+    font-weight: bold;
+    font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+}
+
+/* .opdemo {
+    background-color: yellow;
+    position: relative;     
+} */
+
+#leftdiv {
+    background-image: url("../img/foreign_parts_left.png");
+    background-color: rgb(0, 128, 255);
+    /* left: 0; */
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+    background-position: center;
+    /* text-align: center; */
+}
+
+#rightdiv {
+    background-image: url("../img/bg_dot.jpg");
+    background-color: rgb(255, 128, 0);
+    /* right: 0; */
+    left: 50%;
+    /* width: 50%; */
+    /* height: 100%; */
+    position: absolute;
+    background-attachment: fixed;
+    text-align: center;
+    /* top: 0; */
+
+    /* position: absolute; right: 0; */
+    /* margin-left: 50%; */
+    /* 兩者結果相同 */
+}
+
+#bigbag {
+    padding: 50px 70px 15px 70px;
+}
+
+/* #titleImg_01 {
+    margin: 65px 0px 40px 0px;
+} */
+
+#titleImg_02 {
+    margin: 30px 0px 40px 0px;
+}
+
+.ophr {
+    margin: 20px 0px;
+}
+
+.opdiv {
+    /* margin: 0px 65px; */
+    text-align: left;
+}
+
+p {
+    line-height: 1.35em;
+}
+
+#ticket:hover {
+    /* margin: 20px 0px; */
+    /* 圖片透明度 */
+    opacity: 0.75;
+}
+
+.smallfont {
+    font-size: 0.7em;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    /* 邊框合併為單一邊框 */
+    border-collapse: collapse;
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: black; */
+    /* border: 1px solid royalblue; */
+}
+
+table th {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: burlywood;
+    padding: 15px;
+}
+
+table td {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 15px;
+}
+
+#opend {
+    /* margin: 50px 65px 10px 65px; */
+    background-color: white;
+    text-align: left;
+    padding: 20px 70px;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    /* padding: 20px 70px; */
+}
+
+#reddiv {
+    /* position: absolute; */
+    /* position: relative; */
+    width: 70px;
+    height: 70px;
+
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+
+    background-image: url("../img/onepiece20th_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
